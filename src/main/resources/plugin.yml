@@ -1,0 +1,9 @@
+name: CustomRecipes
+version: '${project.version}'
+main: alpha812.customrecipes.CustomRecipes
+api-version: 1.19
+depend: [WorldGuard]
+commands:
+  crafts:
+    description: выводит меню с рецептами крафта
+    usage: /crafts
